@@ -1,0 +1,44 @@
+name: WaifuPuller-Profile Automation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'config/**'
+      - 'assets/source-images/**'
+      - 'scripts/**'
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Install ONNX Runtime
+        run: pip install onnxruntime "rembg[cpu]"
+
+      - name: Run Pipeline
+        run: python scripts/main.py
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated Profile Generation update"
+          file_pattern: "README.md assets/generated/*.svg"

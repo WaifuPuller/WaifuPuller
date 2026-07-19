@@ -1,0 +1,569 @@
+2026-07-18 23:10:15 [INFO] preprocessing: Loading image from arlecchino pfp full with watermark.heic
+2026-07-18 23:10:15 [INFO] ascii_generator: Generating ASCII matrix with width 80 chars using preset 'balanced'
+2026-07-18 23:10:15 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 80x50
+2026-07-18 23:11:51 [INFO] preprocessing: Loading image from arlecchino pfp full with watermark.heic
+2026-07-18 23:11:51 [DEBUG] preprocessing: Running step: exif_orientation
+2026-07-18 23:11:51 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_826e8cdc6ec80f0e84da9d54afdb4dcd_exif_orientation.png
+2026-07-18 23:11:51 [DEBUG] preprocessing: Running step: remove_background
+2026-07-18 23:11:53 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_3aa510304fb20871cbf8f9b4293ef931_remove_background.png
+2026-07-18 23:11:53 [DEBUG] preprocessing: Running step: auto_crop
+2026-07-18 23:11:53 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_f43beaad07fd9260ef0d8ba96cb99dc0_auto_crop.png
+2026-07-18 23:11:53 [DEBUG] preprocessing: Running step: resize
+2026-07-18 23:11:53 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_93a7b59cd8facd93ce12104e8a8b679c_resize.png
+2026-07-18 23:11:53 [DEBUG] preprocessing: Running step: contrast_enhancement
+2026-07-18 23:11:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_3d447e910fe9640ea91920cc654f0240_contrast_enhancement.png
+2026-07-18 23:11:54 [DEBUG] preprocessing: Running step: gamma_correction
+2026-07-18 23:11:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_4f233750c816eab268b03c431bd1adbd_gamma_correction.png
+2026-07-18 23:11:54 [DEBUG] preprocessing: Running step: sharpening
+2026-07-18 23:11:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_14d1807aab76ed0e9ede1ef20ee7e49b_sharpening.png
+2026-07-18 23:11:54 [DEBUG] preprocessing: Running step: color_quantization
+2026-07-18 23:11:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_39041eccdda127882b28630786608aa8_color_quantization.png
+2026-07-18 23:11:54 [INFO] ascii_generator: Generating ASCII matrix with width 80 chars using preset 'balanced'
+2026-07-18 23:11:54 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 80x50
+2026-07-18 23:15:44 [INFO] heatmap_fetcher: Fetching contributions from https://github.com/users/WaifuPuller/contributions
+2026-07-18 23:16:35 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-18 23:16:35 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-18 23:16:35 [INFO] WaifuPuller-Profile: Generating Portrait to assets\generated\portrait.svg
+2026-07-18 23:16:35 [INFO] preprocessing: Loading image from arlecchino pfp full with watermark.heic
+2026-07-18 23:16:35 [DEBUG] preprocessing: Running step: exif_orientation
+2026-07-18 23:16:35 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_826e8cdc6ec80f0e84da9d54afdb4dcd_exif_orientation.png
+2026-07-18 23:16:35 [DEBUG] preprocessing: Running step: remove_background
+2026-07-18 23:16:37 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_3aa510304fb20871cbf8f9b4293ef931_remove_background.png
+2026-07-18 23:16:37 [DEBUG] preprocessing: Running step: auto_crop
+2026-07-18 23:16:37 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_f43beaad07fd9260ef0d8ba96cb99dc0_auto_crop.png
+2026-07-18 23:16:37 [DEBUG] preprocessing: Running step: resize
+2026-07-18 23:16:37 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_93a7b59cd8facd93ce12104e8a8b679c_resize.png
+2026-07-18 23:16:37 [DEBUG] preprocessing: Running step: contrast_enhancement
+2026-07-18 23:16:38 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_3d447e910fe9640ea91920cc654f0240_contrast_enhancement.png
+2026-07-18 23:16:38 [DEBUG] preprocessing: Running step: gamma_correction
+2026-07-18 23:16:38 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_4f233750c816eab268b03c431bd1adbd_gamma_correction.png
+2026-07-18 23:16:38 [DEBUG] preprocessing: Running step: sharpening
+2026-07-18 23:16:38 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_14d1807aab76ed0e9ede1ef20ee7e49b_sharpening.png
+2026-07-18 23:16:38 [DEBUG] preprocessing: Running step: color_quantization
+2026-07-18 23:16:38 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_39041eccdda127882b28630786608aa8_color_quantization.png
+2026-07-18 23:16:38 [INFO] ascii_generator: Generating ASCII matrix with width 80 chars using preset 'balanced'
+2026-07-18 23:16:38 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 80x50
+2026-07-18 23:16:38 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\portrait.svg
+2026-07-18 23:16:38 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-18 23:16:38 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-18 23:16:38 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-18 23:16:38 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-18 23:16:38 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-18 23:16:38 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-18 23:16:38 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-18 23:16:38 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-18 23:16:38 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-18 23:16:38 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-18 23:16:38 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-18 23:27:43 [INFO] preprocessing: Loading image from arlecchino pfp full with watermark.heic
+2026-07-18 23:27:44 [DEBUG] preprocessing: Running step: exif_orientation
+2026-07-18 23:27:44 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_826e8cdc6ec80f0e84da9d54afdb4dcd_exif_orientation.png
+2026-07-18 23:27:44 [DEBUG] preprocessing: Running step: remove_background
+2026-07-18 23:27:46 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_3aa510304fb20871cbf8f9b4293ef931_remove_background.png
+2026-07-18 23:27:46 [DEBUG] preprocessing: Running step: auto_crop
+2026-07-18 23:27:46 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_f43beaad07fd9260ef0d8ba96cb99dc0_auto_crop.png
+2026-07-18 23:27:46 [DEBUG] preprocessing: Running step: resize
+2026-07-18 23:27:46 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_93a7b59cd8facd93ce12104e8a8b679c_resize.png
+2026-07-18 23:27:46 [DEBUG] preprocessing: Running step: contrast_enhancement
+2026-07-18 23:27:46 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_3d447e910fe9640ea91920cc654f0240_contrast_enhancement.png
+2026-07-18 23:27:46 [DEBUG] preprocessing: Running step: gamma_correction
+2026-07-18 23:27:46 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_4f233750c816eab268b03c431bd1adbd_gamma_correction.png
+2026-07-18 23:27:46 [DEBUG] preprocessing: Running step: sharpening
+2026-07-18 23:27:47 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_14d1807aab76ed0e9ede1ef20ee7e49b_sharpening.png
+2026-07-18 23:27:47 [DEBUG] preprocessing: Running step: color_quantization
+2026-07-18 23:27:47 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_39041eccdda127882b28630786608aa8_color_quantization.png
+2026-07-18 23:27:47 [INFO] ascii_generator: Generating ASCII matrix with width 120 chars using preset 'balanced'
+2026-07-18 23:27:47 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 120x75
+2026-07-18 23:27:47 [INFO] raster_renderer: Rendering Raster ASCII (960x1125) to assets\experiments\portrait_w120_none.png
+2026-07-18 23:27:48 [INFO] raster_renderer: Rendering Raster ASCII (960x1125) to assets\experiments\portrait_w120_none.webp
+2026-07-18 23:27:56 [INFO] ascii_generator: Generating ASCII matrix with width 120 chars using preset 'balanced'
+2026-07-18 23:27:56 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 120x75
+2026-07-18 23:27:56 [INFO] raster_renderer: Rendering Raster ASCII (960x1125) to assets\experiments\portrait_w120_floyd-steinberg.png
+2026-07-18 23:27:56 [INFO] raster_renderer: Rendering Raster ASCII (960x1125) to assets\experiments\portrait_w120_floyd-steinberg.webp
+2026-07-18 23:28:04 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'balanced'
+2026-07-18 23:28:04 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x100
+2026-07-18 23:28:05 [INFO] raster_renderer: Rendering Raster ASCII (1280x1500) to assets\experiments\portrait_w160_none.png
+2026-07-18 23:28:06 [INFO] raster_renderer: Rendering Raster ASCII (1280x1500) to assets\experiments\portrait_w160_none.webp
+2026-07-18 23:28:21 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'balanced'
+2026-07-18 23:28:21 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x100
+2026-07-18 23:28:21 [INFO] raster_renderer: Rendering Raster ASCII (1280x1500) to assets\experiments\portrait_w160_floyd-steinberg.png
+2026-07-18 23:28:22 [INFO] raster_renderer: Rendering Raster ASCII (1280x1500) to assets\experiments\portrait_w160_floyd-steinberg.webp
+2026-07-18 23:28:37 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'balanced'
+2026-07-18 23:28:37 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x125
+2026-07-18 23:28:37 [INFO] raster_renderer: Rendering Raster ASCII (1600x1875) to assets\experiments\portrait_w200_none.png
+2026-07-18 23:28:39 [INFO] raster_renderer: Rendering Raster ASCII (1600x1875) to assets\experiments\portrait_w200_none.webp
+2026-07-18 23:28:56 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'balanced'
+2026-07-18 23:28:56 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x125
+2026-07-18 23:28:56 [INFO] raster_renderer: Rendering Raster ASCII (1600x1875) to assets\experiments\portrait_w200_floyd-steinberg.png
+2026-07-18 23:28:58 [INFO] raster_renderer: Rendering Raster ASCII (1600x1875) to assets\experiments\portrait_w200_floyd-steinberg.webp
+2026-07-18 23:55:51 [INFO] preprocessing: Loading image from Arlecchino pfp.png
+2026-07-18 23:55:52 [DEBUG] preprocessing: Running step: exif_orientation
+2026-07-18 23:55:53 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_390752e7a1132cf50818ac171be925ba_exif_orientation.png
+2026-07-18 23:55:53 [DEBUG] preprocessing: Running step: auto_crop
+2026-07-18 23:55:53 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_ae3c6eaddc7eba7d87ce0ebbd93fcb18_auto_crop.png
+2026-07-18 23:55:53 [DEBUG] preprocessing: Running step: resize
+2026-07-18 23:55:53 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_15d6b82cffaadbc16707d4beba85104c_resize.png
+2026-07-18 23:55:53 [DEBUG] preprocessing: Running step: contrast_enhancement
+2026-07-18 23:55:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_96762b04e01dccf4c7ed5e6b12aa0069_contrast_enhancement.png
+2026-07-18 23:55:54 [DEBUG] preprocessing: Running step: gamma_correction
+2026-07-18 23:55:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_6d83732c944131c98089caa1ad71d603_gamma_correction.png
+2026-07-18 23:55:54 [DEBUG] preprocessing: Running step: sharpening
+2026-07-18 23:55:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_caaa9fff1710e7ed9fedfa573264f70e_sharpening.png
+2026-07-18 23:55:54 [DEBUG] preprocessing: Running step: color_quantization
+2026-07-18 23:55:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_183cf042ec19d07e643d276ec6dc8625_color_quantization.png
+2026-07-18 23:55:54 [DEBUG] preprocessing: Running step: local_contrast
+2026-07-18 23:55:54 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_ab4523a12caeb44481fe02f983e86711_local_contrast.png
+2026-07-18 23:55:54 [DEBUG] preprocessing: Running step: edge_enhancement
+2026-07-18 23:55:55 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_c42be7b9d6dece905211c8376ece2508_edge_enhancement.png
+2026-07-18 23:55:55 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'artistic'
+2026-07-18 23:55:55 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x80
+2026-07-18 23:55:55 [INFO] raster_renderer: Rendering Raster ASCII (1280x1200) to assets\experiments_v2\portrait_w160_artistic_none.webp
+2026-07-18 23:56:04 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'artistic'
+2026-07-18 23:56:04 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x80
+2026-07-18 23:56:04 [INFO] raster_renderer: Rendering Raster ASCII (1280x1200) to assets\experiments_v2\portrait_w160_artistic_floyd-steinberg.webp
+2026-07-18 23:56:13 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'artistic'
+2026-07-18 23:56:13 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x80
+2026-07-18 23:56:13 [INFO] raster_renderer: Rendering Raster ASCII (1280x1200) to assets\experiments_v2\portrait_w160_artistic_ordered.webp
+2026-07-18 23:56:23 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'shading'
+2026-07-18 23:56:23 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x80
+2026-07-18 23:56:23 [INFO] raster_renderer: Rendering Raster ASCII (1280x1200) to assets\experiments_v2\portrait_w160_shading_none.webp
+2026-07-18 23:56:30 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'shading'
+2026-07-18 23:56:30 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x80
+2026-07-18 23:56:30 [INFO] raster_renderer: Rendering Raster ASCII (1280x1200) to assets\experiments_v2\portrait_w160_shading_floyd-steinberg.webp
+2026-07-18 23:56:39 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'artistic'
+2026-07-18 23:56:39 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x100
+2026-07-18 23:56:39 [INFO] raster_renderer: Rendering Raster ASCII (1600x1500) to assets\experiments_v2\portrait_w200_artistic_none.webp
+2026-07-18 23:56:54 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'artistic'
+2026-07-18 23:56:54 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x100
+2026-07-18 23:56:54 [INFO] raster_renderer: Rendering Raster ASCII (1600x1500) to assets\experiments_v2\portrait_w200_artistic_floyd-steinberg.webp
+2026-07-18 23:57:09 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'artistic'
+2026-07-18 23:57:09 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x100
+2026-07-18 23:57:10 [INFO] raster_renderer: Rendering Raster ASCII (1600x1500) to assets\experiments_v2\portrait_w200_artistic_ordered.webp
+2026-07-18 23:57:24 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'shading'
+2026-07-18 23:57:24 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x100
+2026-07-18 23:57:24 [INFO] raster_renderer: Rendering Raster ASCII (1600x1500) to assets\experiments_v2\portrait_w200_shading_none.webp
+2026-07-18 23:57:36 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'shading'
+2026-07-18 23:57:36 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x100
+2026-07-18 23:57:36 [INFO] raster_renderer: Rendering Raster ASCII (1600x1500) to assets\experiments_v2\portrait_w200_shading_floyd-steinberg.webp
+2026-07-18 23:57:49 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'artistic'
+2026-07-18 23:57:49 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-18 23:57:49 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\experiments_v2\portrait_w240_artistic_none.webp
+2026-07-18 23:58:04 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'artistic'
+2026-07-18 23:58:04 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-18 23:58:04 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\experiments_v2\portrait_w240_artistic_floyd-steinberg.webp
+2026-07-18 23:58:18 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'artistic'
+2026-07-18 23:58:18 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-18 23:58:18 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\experiments_v2\portrait_w240_artistic_ordered.webp
+2026-07-18 23:58:33 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'shading'
+2026-07-18 23:58:33 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-18 23:58:33 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\experiments_v2\portrait_w240_shading_none.webp
+2026-07-18 23:58:44 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'shading'
+2026-07-18 23:58:44 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-18 23:58:45 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\experiments_v2\portrait_w240_shading_floyd-steinberg.webp
+2026-07-19 00:06:16 [INFO] preprocessing: Loading image from Arlecchino pfp.png
+2026-07-19 00:06:17 [DEBUG] preprocessing: Running step: exif_orientation
+2026-07-19 00:06:18 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_390752e7a1132cf50818ac171be925ba_exif_orientation.png
+2026-07-19 00:06:18 [DEBUG] preprocessing: Running step: auto_crop
+2026-07-19 00:06:18 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_ae3c6eaddc7eba7d87ce0ebbd93fcb18_auto_crop.png
+2026-07-19 00:06:18 [DEBUG] preprocessing: Running step: resize
+2026-07-19 00:06:18 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_15d6b82cffaadbc16707d4beba85104c_resize.png
+2026-07-19 00:06:18 [DEBUG] preprocessing: Running step: contrast_enhancement
+2026-07-19 00:06:19 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_96762b04e01dccf4c7ed5e6b12aa0069_contrast_enhancement.png
+2026-07-19 00:06:19 [DEBUG] preprocessing: Running step: gamma_correction
+2026-07-19 00:06:19 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_6d83732c944131c98089caa1ad71d603_gamma_correction.png
+2026-07-19 00:06:19 [DEBUG] preprocessing: Running step: sharpening
+2026-07-19 00:06:19 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_caaa9fff1710e7ed9fedfa573264f70e_sharpening.png
+2026-07-19 00:06:19 [DEBUG] preprocessing: Running step: color_quantization
+2026-07-19 00:06:19 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_183cf042ec19d07e643d276ec6dc8625_color_quantization.png
+2026-07-19 00:06:19 [DEBUG] preprocessing: Running step: local_contrast
+2026-07-19 00:06:19 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_ab4523a12caeb44481fe02f983e86711_local_contrast.png
+2026-07-19 00:06:19 [DEBUG] preprocessing: Running step: edge_enhancement
+2026-07-19 00:06:20 [DEBUG] preprocessing: Saved debug output: assets\processed\cache_c42be7b9d6dece905211c8376ece2508_edge_enhancement.png
+2026-07-19 00:06:20 [INFO] comparison_board: Generating candidate: 160_artistic_floyd-steinberg
+2026-07-19 00:06:20 [INFO] ascii_generator: Generating ASCII matrix with width 160 chars using preset 'artistic'
+2026-07-19 00:06:20 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 160x80
+2026-07-19 00:06:20 [INFO] raster_renderer: Rendering Raster ASCII (1280x1200) to C:\Users\flash\.gemini\antigravity\brain\e4da0dde-be9c-4219-960e-dffd9b9be5c8\board\160_artistic_floyd-steinberg_full.webp
+2026-07-19 00:06:29 [INFO] comparison_board: Generating candidate: 200_artistic_floyd-steinberg
+2026-07-19 00:06:29 [INFO] ascii_generator: Generating ASCII matrix with width 200 chars using preset 'artistic'
+2026-07-19 00:06:29 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 200x100
+2026-07-19 00:06:30 [INFO] raster_renderer: Rendering Raster ASCII (1600x1500) to C:\Users\flash\.gemini\antigravity\brain\e4da0dde-be9c-4219-960e-dffd9b9be5c8\board\200_artistic_floyd-steinberg_full.webp
+2026-07-19 00:06:45 [INFO] comparison_board: Generating candidate: 240_artistic_floyd-steinberg
+2026-07-19 00:06:45 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'artistic'
+2026-07-19 00:06:45 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 00:06:45 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to C:\Users\flash\.gemini\antigravity\brain\e4da0dde-be9c-4219-960e-dffd9b9be5c8\board\240_artistic_floyd-steinberg_full.webp
+2026-07-19 00:07:00 [INFO] comparison_board: Generating candidate: 240_artistic_none
+2026-07-19 00:07:00 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'artistic'
+2026-07-19 00:07:00 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 00:07:00 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to C:\Users\flash\.gemini\antigravity\brain\e4da0dde-be9c-4219-960e-dffd9b9be5c8\board\240_artistic_none_full.webp
+2026-07-19 00:07:14 [INFO] comparison_board: Generating candidate: 240_shading_none
+2026-07-19 00:07:14 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using preset 'shading'
+2026-07-19 00:07:14 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 00:07:14 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to C:\Users\flash\.gemini\antigravity\brain\e4da0dde-be9c-4219-960e-dffd9b9be5c8\board\240_shading_none_full.webp
+2026-07-19 00:07:27 [INFO] comparison_board: Comparison board generation complete.
+2026-07-19 08:01:54 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 08:01:54 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 08:01:54 [INFO] WaifuPuller-Profile: Generating Portrait to assets\generated\portrait.webp
+2026-07-19 08:01:54 [INFO] preprocessing: Loading image from 
+2026-07-19 08:01:54 [ERROR] WaifuPuller-Profile: Pipeline failed: [Errno 13] Permission denied: '.'
+Traceback (most recent call last):
+  File "D:\WaifuPuller-Profile\scripts\main.py", line 35, in main
+    img = processor.process(img_path)
+  File "D:\WaifuPuller-Profile\scripts\preprocessing\image_processor.py", line 20, in process
+    img = Image.open(path)
+  File "D:\WaifuPuller-Profile\.venv\Lib\site-packages\PIL\Image.py", line 3639, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: '.'
+2026-07-19 08:02:17 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 08:02:17 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 08:02:17 [INFO] WaifuPuller-Profile: Generating Portrait to assets\generated\portrait.webp
+2026-07-19 08:02:17 [INFO] preprocessing: Loading image from assets/source-images/Arlecchino pfp.png
+2026-07-19 08:02:18 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 08:02:18 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 08:02:18 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\generated\portrait.webp
+2026-07-19 08:02:33 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 08:02:33 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 08:02:33 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 08:02:33 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 08:02:33 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 08:02:33 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 08:02:33 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 08:02:33 [INFO] heatmap_fetcher: Fetching contributions from https://github.com/users/WaifuPuller/contributions
+2026-07-19 08:02:34 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 08:02:34 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 08:02:34 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 08:12:54 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 08:34:53 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 08:34:53 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 08:34:53 [INFO] WaifuPuller-Profile: Generating Portrait to assets\generated\portrait.svg
+2026-07-19 08:34:53 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 08:34:53 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 08:34:53 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 08:34:53 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\generated\portrait.svg
+2026-07-19 08:35:08 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\portrait.svg
+2026-07-19 08:35:08 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 08:35:08 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 08:35:08 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 08:35:08 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 08:35:08 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 08:35:08 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 08:35:08 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 08:35:08 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 08:35:08 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 08:35:08 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 08:35:08 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 08:48:32 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 08:48:32 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 08:48:32 [INFO] WaifuPuller-Profile: Generating Portrait to assets\generated\portrait.svg
+2026-07-19 08:48:32 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 08:48:32 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 08:48:32 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 08:48:32 [INFO] raster_renderer: Rendering Raster ASCII (1920x1800) to assets\generated\portrait.svg
+2026-07-19 08:48:47 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\portrait.svg
+2026-07-19 08:48:47 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 08:48:47 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 08:48:47 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 08:48:47 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 08:48:47 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 08:48:47 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 08:48:47 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 08:48:47 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 08:48:47 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 08:48:47 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 08:48:47 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 09:00:39 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:00:40 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 09:00:40 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 09:05:48 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:05:48 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 09:05:48 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 09:10:26 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:10:26 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 09:10:26 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 09:13:54 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:13:54 [INFO] ascii_generator: Generating ASCII matrix with width 240 chars using 'artistic' preset
+2026-07-19 09:13:54 [DEBUG] ascii_generator: Scaling image for ASCII sampling to 240x120
+2026-07-19 09:13:55 [INFO] raster_renderer: Rendering Raster ASCII (1920x1560) to C:\Users\flash\.gemini\antigravity\brain\e4da0dde-be9c-4219-960e-dffd9b9be5c8\step5_final_raster.svg
+2026-07-19 09:19:47 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 09:19:47 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 09:19:47 [INFO] WaifuPuller-Profile: Generating Portrait to assets\generated\portrait.svg
+2026-07-19 09:19:47 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:19:47 [INFO] animated_image_renderer: Rendering Animated Image SVG (800x800) to assets\generated\portrait.svg
+2026-07-19 09:20:12 [INFO] animated_image_renderer: SVG generated successfully.
+2026-07-19 09:20:12 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\portrait.svg
+2026-07-19 09:20:12 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 09:20:12 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 09:20:12 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 09:20:12 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 09:20:12 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 09:20:12 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 09:20:12 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 09:20:12 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 09:20:12 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 09:20:12 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 09:20:12 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 09:28:50 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 09:28:50 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 09:28:50 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 09:28:50 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:28:50 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 09:28:56 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 09:28:56 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 09:28:56 [ERROR] WaifuPuller-Profile: Failed to generate hero panel: not well-formed (invalid token): line 38, column 1577
+2026-07-19 09:28:56 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 09:28:56 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 09:28:56 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 09:28:56 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 09:28:56 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 09:28:56 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 09:28:56 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 09:28:56 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 09:28:56 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 09:28:56 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 09:28:56 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 09:29:44 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 09:29:44 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 09:29:44 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 09:29:44 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:29:45 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 09:29:51 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 09:29:51 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 09:29:51 [ERROR] WaifuPuller-Profile: Failed to generate hero panel: not well-formed (invalid token): line 38, column 1580
+2026-07-19 09:29:51 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 09:29:51 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 09:29:51 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 09:29:51 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 09:29:51 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 09:29:51 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 09:29:51 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 09:29:51 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 09:29:51 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 09:29:51 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 09:29:51 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 09:34:12 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 09:34:12 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 09:34:12 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 09:34:12 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:34:12 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 09:34:18 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 09:34:18 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 09:34:18 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 09:34:18 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 09:34:18 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 09:34:18 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 09:34:18 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 09:34:18 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 09:34:18 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 09:34:18 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 09:34:18 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 09:34:18 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 09:34:18 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 09:35:41 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 09:35:41 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 09:35:41 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 09:35:41 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 09:35:41 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 09:35:48 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 09:35:48 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 09:35:48 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 09:35:48 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 09:35:48 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 09:35:48 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 09:35:48 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 09:35:48 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 09:35:48 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 09:35:48 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 09:35:48 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 09:35:48 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 09:35:48 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 09:35:48 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 09:35:48 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 10:50:14 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 10:50:14 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 10:50:14 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 10:50:14 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 10:50:14 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 10:50:20 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 10:50:20 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 10:50:20 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 10:50:20 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 10:50:20 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 10:50:20 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 10:50:20 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 10:50:20 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 10:50:20 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 10:50:20 [INFO] projects_panel: Generating Repository Explorer SVG (1200x460) to assets\generated\projects.svg
+2026-07-19 10:50:20 [INFO] projects_panel: Projects SVG generated successfully.
+2026-07-19 10:50:20 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 10:50:20 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 10:50:20 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 10:50:20 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 10:50:20 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 10:50:20 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 10:55:56 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 10:55:56 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 10:55:56 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 10:55:56 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 10:55:56 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 10:56:02 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 10:56:02 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 10:56:02 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 10:56:02 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 10:56:02 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 10:56:02 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 10:56:02 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 10:56:02 [INFO] tech_stack_panel: Generating Package Manager SVG (1200x660) to assets\generated\tech_stack.svg
+2026-07-19 10:56:02 [INFO] tech_stack_panel: Tech Stack SVG generated successfully.
+2026-07-19 10:56:02 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 10:56:02 [ERROR] WaifuPuller-Profile: Pipeline failed: not well-formed (invalid token): line 20, column 2963
+Traceback (most recent call last):
+  File "D:\WaifuPuller-Profile\scripts\main.py", line 53, in main
+    inject_metadata_and_minify(tech_out)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\WaifuPuller-Profile\scripts\utils\svg_builder.py", line 12, in inject_metadata_and_minify
+    tree = ET.parse(svg_path)
+  File "C:\Python313\Lib\xml\etree\ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\xml\etree\ElementTree.py", line 569, in parse
+    self._root = parser._parse_whole(source)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 20, column 2963
+2026-07-19 10:56:36 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 10:56:36 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 10:56:36 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 10:56:36 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 10:56:36 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 10:56:42 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 10:56:42 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 10:56:42 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 10:56:42 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 10:56:42 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 10:56:42 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 10:56:42 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 10:56:42 [INFO] tech_stack_panel: Generating Package Manager SVG (1200x660) to assets\generated\tech_stack.svg
+2026-07-19 10:56:42 [INFO] tech_stack_panel: Tech Stack SVG generated successfully.
+2026-07-19 10:56:42 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 10:56:42 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 10:56:42 [INFO] projects_panel: Generating Repository Explorer SVG (1200x460) to assets\generated\projects.svg
+2026-07-19 10:56:42 [INFO] projects_panel: Projects SVG generated successfully.
+2026-07-19 10:56:42 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 10:56:42 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 10:56:42 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 10:56:43 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 10:56:43 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 10:56:43 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 11:00:46 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 11:00:46 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 11:00:46 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 11:00:46 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 11:00:47 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 11:00:53 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 11:00:53 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 11:00:53 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 11:00:53 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 11:00:53 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 11:00:53 [INFO] tech_stack_panel: Generating Package Manager SVG (1200x660) to assets\generated\tech_stack.svg
+2026-07-19 11:00:53 [INFO] tech_stack_panel: Tech Stack SVG generated successfully.
+2026-07-19 11:00:53 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 11:00:53 [INFO] projects_panel: Generating Repository Explorer SVG (1200x460) to assets\generated\projects.svg
+2026-07-19 11:00:53 [INFO] projects_panel: Projects SVG generated successfully.
+2026-07-19 11:00:53 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Generating Timeline to assets\generated\timeline.svg
+2026-07-19 11:00:53 [INFO] timeline_panel: Generating Version Control SVG (1200x140) to assets\generated\timeline.svg
+2026-07-19 11:00:53 [INFO] timeline_panel: Timeline SVG generated successfully.
+2026-07-19 11:00:53 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\timeline.svg
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Generating Heatmap to assets\generated\heatmap.svg
+2026-07-19 11:00:53 [DEBUG] heatmap_fetcher: Using cached contributions data
+2026-07-19 11:00:53 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\heatmap.svg
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 11:00:53 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 11:05:15 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 11:05:15 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 11:05:15 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 11:05:15 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 11:05:16 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 11:05:22 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 11:05:22 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 11:05:22 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 11:05:22 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 11:05:22 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 11:05:22 [INFO] tech_stack_panel: Generating Package Manager SVG (1200x660) to assets\generated\tech_stack.svg
+2026-07-19 11:05:22 [INFO] tech_stack_panel: Tech Stack SVG generated successfully.
+2026-07-19 11:05:22 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 11:05:22 [INFO] projects_panel: Generating Repository Explorer SVG (1200x460) to assets\generated\projects.svg
+2026-07-19 11:05:22 [INFO] projects_panel: Projects SVG generated successfully.
+2026-07-19 11:05:22 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Generating Timeline to assets\generated\timeline.svg
+2026-07-19 11:05:22 [INFO] timeline_panel: Generating Version Control SVG (1200x140) to assets\generated\timeline.svg
+2026-07-19 11:05:22 [INFO] timeline_panel: Timeline SVG generated successfully.
+2026-07-19 11:05:22 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\timeline.svg
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Generating System Monitor to assets\generated\system_monitor.svg
+2026-07-19 11:05:22 [INFO] system_monitor_panel: Generating System Monitor SVG (1200x500) to assets\generated\system_monitor.svg
+2026-07-19 11:05:22 [INFO] system_monitor_panel: System Monitor SVG generated successfully.
+2026-07-19 11:05:22 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\system_monitor.svg
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 11:05:22 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 11:08:09 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 11:08:09 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 11:08:09 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 11:08:09 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 11:08:09 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 11:08:16 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 11:08:16 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 11:08:16 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 11:08:16 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 11:08:16 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 11:08:16 [INFO] tech_stack_panel: Generating Package Manager SVG (1200x660) to assets\generated\tech_stack.svg
+2026-07-19 11:08:16 [INFO] tech_stack_panel: Tech Stack SVG generated successfully.
+2026-07-19 11:08:16 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 11:08:16 [INFO] projects_panel: Generating Repository Explorer SVG (1200x460) to assets\generated\projects.svg
+2026-07-19 11:08:16 [INFO] projects_panel: Projects SVG generated successfully.
+2026-07-19 11:08:16 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Generating Timeline to assets\generated\timeline.svg
+2026-07-19 11:08:16 [INFO] timeline_panel: Generating Version Control SVG (1200x140) to assets\generated\timeline.svg
+2026-07-19 11:08:16 [INFO] timeline_panel: Timeline SVG generated successfully.
+2026-07-19 11:08:16 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\timeline.svg
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Generating System Monitor to assets\generated\system_monitor.svg
+2026-07-19 11:08:16 [INFO] system_monitor_panel: Generating System Monitor SVG (1200x500) to assets\generated\system_monitor.svg
+2026-07-19 11:08:16 [INFO] system_monitor_panel: System Monitor SVG generated successfully.
+2026-07-19 11:08:16 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\system_monitor.svg
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 11:08:16 [INFO] WaifuPuller-Profile: Pipeline completed successfully.
+2026-07-19 11:23:22 [INFO] WaifuPuller-Profile: Starting WaifuPuller-Profile Generation Pipeline...
+2026-07-19 11:23:22 [INFO] WaifuPuller-Profile: Successfully loaded all configurations.
+2026-07-19 11:23:22 [INFO] WaifuPuller-Profile: Generating Hero Panel to assets\generated\hero.svg
+2026-07-19 11:23:22 [INFO] preprocessing: Loading image from assets/source-images/portrait.png
+2026-07-19 11:23:22 [INFO] hero_panel: Rendering Unified Hero Panel SVG (1200x640) to assets\generated\hero.svg
+2026-07-19 11:23:28 [INFO] hero_panel: Hero SVG generated successfully.
+2026-07-19 11:23:28 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\hero.svg
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Generating Info Panel to assets\generated\info_panel.svg
+2026-07-19 11:23:28 [INFO] info_panel: Generating Neofetch Info Panel SVG (1200x400) to assets\generated\info_panel.svg
+2026-07-19 11:23:28 [INFO] info_panel: Info Panel SVG generated successfully.
+2026-07-19 11:23:28 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\info_panel.svg
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Generating Tech Stack to assets\generated\tech_stack.svg
+2026-07-19 11:23:28 [INFO] tech_stack_panel: Generating Package Manager SVG (1200x660) to assets\generated\tech_stack.svg
+2026-07-19 11:23:28 [INFO] tech_stack_panel: Tech Stack SVG generated successfully.
+2026-07-19 11:23:28 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\tech_stack.svg
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Generating Projects to assets\generated\projects.svg
+2026-07-19 11:23:28 [INFO] projects_panel: Generating Repository Explorer SVG (1200x460) to assets\generated\projects.svg
+2026-07-19 11:23:28 [INFO] projects_panel: Projects SVG generated successfully.
+2026-07-19 11:23:28 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\projects.svg
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Generating Timeline to assets\generated\timeline.svg
+2026-07-19 11:23:28 [INFO] timeline_panel: Generating Version Control SVG (1200x140) to assets\generated\timeline.svg
+2026-07-19 11:23:28 [INFO] timeline_panel: Timeline SVG generated successfully.
+2026-07-19 11:23:28 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\timeline.svg
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Generating System Monitor to assets\generated\system_monitor.svg
+2026-07-19 11:23:28 [INFO] system_monitor_panel: Generating System Monitor SVG (1200x500) to assets\generated\system_monitor.svg
+2026-07-19 11:23:28 [INFO] system_monitor_panel: System Monitor SVG generated successfully.
+2026-07-19 11:23:28 [DEBUG] svg_builder: Injecting metadata and minifying SVG: assets\generated\system_monitor.svg
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Assembling README.md
+2026-07-19 11:23:28 [INFO] WaifuPuller-Profile: Pipeline completed successfully.

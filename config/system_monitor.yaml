@@ -1,0 +1,29 @@
+system_monitor:
+  metrics:
+    installed_projects: 42
+    process_count: 1337
+    active_connections: 520
+    performance_rating: "A+"
+    system_uptime: "6 years, 4 months"
+  
+  runtime_distribution:
+    - language: "Python"
+      usage: "45%"
+    - language: "TypeScript"
+      usage: "35%"
+    - language: "Rust"
+      usage: "15%"
+    - language: "Go"
+      usage: "5%"
+  
+  running_processes:
+    - name: "WaifuPuller-Profile"
+      pid: 1042
+      status: "Running"
+      cpu: "12.4%"
+      mem: "450M"
+    - name: "Campus-Print"
+      pid: 3012
+      status: "Background"
+      cpu: "0.2%"
+      mem: "1.2G"

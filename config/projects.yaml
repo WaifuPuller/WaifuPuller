@@ -1,0 +1,25 @@
+projects:
+  - name: "Campus Print"
+    tagline: "High-performance university printing system"
+    description: "An automated, cloud-synced document management and printing kiosk system deployed across university campuses."
+    technologies: ["TypeScript", "React", "Firebase", "Razorpay"]
+    status: "Production"
+    version: "v1.4.2"
+    github_url: "https://github.com/WaifuPuller/Campus-Print"
+    demo_url: "https://campusprint.live"
+    highlights:
+      - "Processes 10k+ pages daily"
+      - "Zero-downtime architecture"
+      - "Fully integrated payments"
+
+  - name: "WaifuPuller-Profile"
+    tagline: "Luxury Terminal OS GitHub Profile"
+    description: "A framework for generating dynamic, animated SVG-based GitHub profiles styled as a premium cyberpunk operating system."
+    technologies: ["Python", "SVG", "GitHub Actions", "Pillow"]
+    status: "Active"
+    version: "v2.0.0"
+    github_url: "https://github.com/WaifuPuller/WaifuPuller-Profile"
+    highlights:
+      - "Deterministic rendering pipeline"
+      - "Base64 WebP embedding for bypass caches"
+      - "Modular SVG layout system"

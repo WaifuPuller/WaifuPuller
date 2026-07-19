@@ -1,0 +1,9 @@
+source: assets/source-images/portrait.png
+renderer: webp
+width: 240
+preset: artistic
+dithering: floyd-steinberg
+
+preprocessing:
+  clahe: true
+  adaptive_edge_enhancement: true

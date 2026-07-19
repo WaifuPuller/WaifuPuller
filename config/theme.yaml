@@ -1,0 +1,13 @@
+# Luxury Terminal Theme configuration
+colors:
+  background: "#121212"      # Matte Black
+  surface: "#1E1E1E"         # Charcoal
+  primary: "#DC143C"         # Crimson
+  secondary: "#8B0000"       # Dark Red
+  accent: "#FFD700"          # Gold
+  text_primary: "#FFFFFF"    # White
+  text_secondary: "#A0A0A0"  # Gray
+
+typography:
+  font_terminal: "Fira Code, JetBrains Mono, monospace"
+  font_ui: "Inter, Roboto, sans-serif"

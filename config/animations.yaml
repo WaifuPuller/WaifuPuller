@@ -1,0 +1,10 @@
+typing:
+  duration_ms: 2000
+  cursor_blink_ms: 500
+
+fade:
+  duration_ms: 1000
+  delay_ms: 500
+
+hover:
+  transition_ms: 300

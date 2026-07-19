@@ -1,0 +1,24 @@
+milestones:
+  - commit_hash: "a1b2c3d"
+    date: "2023-08-15"
+    title: "Senior Software Architect Promotion"
+    description: "Led the migration to a microservices architecture, reducing latency by 40%."
+    technologies: ["Kubernetes", "Go", "AWS"]
+    tags: ["Leadership", "Architecture"]
+    branch: "main"
+    
+  - commit_hash: "e4f5g6h"
+    date: "2021-04-10"
+    title: "Launched Campus Print Platform"
+    description: "Built and deployed a university-wide document management system processing 10k+ daily print jobs."
+    technologies: ["React", "TypeScript", "Node.js"]
+    tags: ["Fullstack", "Production"]
+    branch: "feature/campus-print"
+    
+  - commit_hash: "i7j8k9l"
+    date: "2019-09-01"
+    title: "Joined TechNova Solutions"
+    description: "Started as a Backend Engineer. Developed RESTful APIs for fintech applications."
+    technologies: ["Python", "Django", "PostgreSQL"]
+    tags: ["Backend", "Fintech"]
+    branch: "main"
