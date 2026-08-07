@@ -1,0 +1,262 @@
+# ============================================================
+#  arlecchino_os — profile configuration
+#  Everything about the profile lives HERE. The generator is
+#  identity-agnostic: change this file, regenerate, done.
+# ============================================================
+
+identity:
+  name: "Aaditya Singh"         # big display name in the hero
+  handle: "aaditya"             # terminal user (aaditya@github)
+  github_username: "WaifuPuller"
+  role: "Student"
+  tagline: "necessity is the mother of invention — I keep her busy"
+  status: "ONLINE"              # status chip text
+  status_note: "student · building · open to collaborate"
+
+portrait:
+  # Drop ANY image into assets/portrait/ (png / jpg / jpeg / webp).
+  # The newest file found there is used automatically — swap it
+  # whenever you want; the frame and quality pipeline stay the same.
+  source_dir: "assets/portrait"
+  label: "arlecchino"           # caption under the portrait frame
+  # Render size of the frame in the hero (px, before 2x retina export)
+  display_width: 220
+  display_height: 300
+  # JPEG quality for the embedded, optimized copy (85 ≈ visually lossless)
+  quality: 85
+
+os:
+  title: "arlecchino_os"
+  version: "1.0.0"
+
+theme:
+  # Luxury dark — glass, depth, restrained crimson accent
+  bg:        "#08080C"
+  bg_deep:   "#050507"
+  glass:     "#101018"
+  line:      "#FFFFFF"          # used at low opacity for hairlines
+  text:      "#EDEDF2"
+  text_dim:  "#8B8B98"
+  text_faint: "#55555F"
+  accent:    "#E5484D"          # arlecchino crimson
+  accent_soft: "#FF6B70"
+  ok:        "#46C88C"
+
+boot:
+  # The boot sequence typed in the hero terminal, line by line.
+  lines:
+    - "initializing arlecchino_os v1.0.0"
+    - "mounting identity ............ ok"
+    - "loading modules .............. ok"
+    - "establishing presence ........ ok"
+
+projects:
+  # FALLBACK ONLY. When data.github_api is on, the explorer is built
+  # from your real repositories — pulled every 6 hours, forks dropped,
+  # ranked by stars then recency, top 8 shown. You never edit this
+  # list; new repos appear on their own.
+  #
+  # These entries are used only when the API is unreachable (offline
+  # build, rate limit, API outage) so the panel never vanishes.
+  - name: campus-print
+    type: web platform
+    since: 2024
+    status: active
+    desc: >-
+      Campus printing, reimagined — upload, pay, and pick up
+      without ever standing in a queue.
+    stack: [Next.js, FastAPI, PostgreSQL]
+  - name: counselling-platform
+    type: web platform
+    since: 2024
+    status: active
+    desc: >-
+      A calm, private space connecting students with counsellors —
+      scheduling, sessions, and follow-ups in one place.
+    stack: [React, Node.js, MongoDB]
+  - name: ml-experiments
+    type: research
+    since: 2023
+    status: research
+    desc: >-
+      A growing collection of machine-learning experiments —
+      models, notebooks, and the occasional happy accident.
+    stack: [Python, PyTorch, scikit-learn]
+  - name: playground
+    type: sandbox
+    since: 2022
+    status: tinkering
+    desc: >-
+      Where unfinished ideas live. Some graduate into real
+      projects; the rest teach me something on the way out.
+    stack: [Rust, Go, whatever's shiny]
+
+skills:
+  # Rendered as a package manager listing. "channel" is the honesty
+  # system — no fake percentage bars: stable / learning / experimental.
+  #
+  # Entries marked (detected) were confirmed from real code in your
+  # public repos. Nothing was removed — private work isn't visible to
+  # the API, so the rest of this list stands on your word.
+  - group: languages
+    items:
+      - { name: javascript, channel: stable }      # detected · 117 KB
+      - { name: python,     channel: stable }      # detected ·  62 KB
+      - { name: java,       channel: stable }      # detected ·  37 KB
+      - { name: typescript, channel: stable }      # detected ·  32 KB
+      - { name: html,       channel: stable }      # detected ·  20 KB
+      - { name: css,        channel: stable }      # detected ·  14 KB
+      - { name: sql,        channel: stable }
+      - { name: rust,       channel: learning }
+  - group: frameworks
+    items:
+      - { name: react,      channel: stable }      # detected
+      - { name: spring boot, channel: stable }     # detected
+      - { name: vite,       channel: stable }      # detected
+      - { name: next.js,    channel: stable }
+      - { name: fastapi,    channel: stable }
+      - { name: pytorch,    channel: learning }
+  - group: tools
+    items:
+      - { name: git,        channel: stable }
+      - { name: docker,     channel: stable }      # detected · Dockerfile
+      - { name: mysql,      channel: stable }      # detected
+      - { name: postgresql, channel: stable }
+      - { name: linux,      channel: stable }
+
+timeline:
+  # The system log — the story so far. Last entry pulses as "now".
+  # DRAFT: built from what your GitHub account actually shows. If you
+  # were coding before June 2025, add those years — I can't see them.
+  - year: 2025
+    title: first commits
+    detail: learning in public — html, typescript, and a lot of trial and error
+  - year: 2026
+    title: the portfolio era
+    detail: my-site, then a cinematic portfolio inspired by arlecchino
+  - year: 2026
+    title: full stack
+    detail: student management system — react, spring boot, mysql, real crud
+  - year: now
+    title: arlecchino_os
+    detail: building the operating system you are currently looking at
+
+contact:
+  email: flash6027@gmail.com
+  links:
+    - { label: github,   url: "https://github.com/WaifuPuller" }
+    - { label: linkedin, url: "https://www.linkedin.com/in/aaditya-singh-408968357" }
+
+hidden:
+  # Nothing here is visible until the visitor opens it. Each block
+  # becomes a collapsed <details> in the README, written as a command.
+  manual:
+    summary: "man aaditya"
+    sections:
+      - heading: NAME
+        lines:
+          - "aaditya — student, builder, occasional perfectionist"
+      - heading: SYNOPSIS
+        lines:
+          - "aaditya [--build] [--break] [--learn] <idea>"
+      - heading: DESCRIPTION
+        lines:
+          - "Still a student, already shipping. Builds because something"
+          - "needed to exist and waiting for someone else to make it"
+          - "felt slower than learning how."
+      - heading: PHILOSOPHY
+        lines:
+          - "1.  Necessity starts it. Curiosity finishes it."
+          - "2.  If a feature adds clutter, it is not a feature."
+          - "3.  Every pixel should be able to justify itself."
+
+  system:
+    # DRAFT — tell me your real setup and I'll correct these.
+    summary: "uname -a"
+    specs:
+      - { key: machine,  value: "windows 11" }
+      - { key: editor,   value: "vs code" }
+      - { key: shell,    value: "powershell" }
+      - { key: theme,    value: "dark, always" }
+      - { key: fuel,     value: "chai" }
+      - { key: uptime,   value: "learning since 2025" }
+
+  secret:
+    summary: "cat .secrets"
+    # One of these is chosen per day — the profile whispers something
+    # different on a second visit.
+    fortunes:
+      - "Necessity is the mother of invention. I just keep her unusually busy."
+      - "Every project here started because waiting for someone else felt slower."
+      - "If you are reading this, you are the kind of person I build for."
+      - "The portrait is swappable. The obsession is not."
+      - "I rewrote this profile more times than I have rewritten my resume."
+      - "Being a student is the excuse. Building anyway is the point."
+      - "Curiosity is the only prerequisite listed in my documentation."
+
+labels:
+  # Every piece of chrome text in the OS. Nothing below is baked into
+  # the generator — rename these and the same code becomes a different
+  # operating system. Anything in {braces} is filled in automatically.
+  hero:
+    prompt: "{handle}@github"     # {handle} comes from identity
+    symbol: "%"
+  explorer:
+    title: "repository_explorer"
+    right: "~/projects"
+    root: "~/projects"           # the top of the file tree
+    # wording for repos pulled live from GitHub
+    no_desc: "no description set on this repository"
+    status_active: "active"
+    status_dormant: "dormant"
+    status_archived: "archived"
+    footer: "{count} repositories mounted · featured rotates daily · {os}"
+    footer_live: "{repos} public repositories · ★ {stars} collected · {followers} followers · featured rotates daily"
+  packages:
+    title: "package_manager"
+    right: "pkg v{version}"
+    command: "pkg list --installed"
+    footer: "{count} packages installed · 0 vulnerabilities · channels: stable / learning / experimental"
+  timeline:
+    title: "system_log"
+    right: "journal --follow"
+  manual:
+    title: "manual_page"
+    right: "man(1)"
+  system:
+    title: "system_info"
+    right: "uname -a"
+  secret:
+    title: "secrets"
+    right: "cat .secrets"
+    intro: "you found it."
+    note: "a different one appears tomorrow"
+  contact:
+    command: "contact --open"
+    email_label: "mail"
+    eof: "EOF · {os}"
+
+readme:
+  # Hidden in the raw markdown — only people who view source ever see
+  # it. Delete this block and no comment is written at all.
+  source_note: |
+       you opened the source. of course you did.
+
+            ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+           █  arlecchino  █     everything below is generated.
+           █   ▄▄▄   ▄▄▄  █     nothing here was written by hand
+           █   ▀▀▀   ▀▀▀  █     except the config that describes me.
+           █      ▼       █
+           █   ╲_______╱  █     config.yaml  →  generate.py  →  this
+            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+       if you're building your own: take it, fork it, make it yours.
+
+data:
+  # Live data (GitHub API) — regenerated on a schedule by Actions.
+  # Kept off until the profile repo exists; flip on and the
+  # generator pulls real stats instead of nothing.
+  github_api: true
+  refresh_hours: 6
+  # a repo pushed to more recently than this counts as "active"
+  active_within_days: 90

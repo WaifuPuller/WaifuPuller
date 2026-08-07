@@ -1,0 +1,191 @@
+# ============================================================
+#  A second persona, built by the exact same generator.
+#  Nothing here is shared with config.yaml except the code.
+#
+#    python scripts/generate.py --config examples/atlas.yaml \
+#           --out examples/output --readme examples/README.md
+# ============================================================
+
+identity:
+  name: "Mira Okonkwo"
+  handle: "mira"
+  github_username: "mira-okonkwo"
+  role: "Data Scientist"
+  tagline: "asking better questions of messier data"
+  status: "AVAILABLE"
+  status_note: "open to research collaborations"
+
+portrait:
+  source_dir: "examples/portrait"
+  label: "atlas"
+  display_width: 220
+  display_height: 300
+  quality: 85
+
+os:
+  title: "atlas"
+  version: "3.2.1"
+
+theme:
+  # Cold observatory blue — same design system, different temperature
+  bg:        "#070A0F"
+  bg_deep:   "#04060A"
+  glass:     "#0E141C"
+  line:      "#FFFFFF"
+  text:      "#E8EEF5"
+  text_dim:  "#7F91A6"
+  text_faint: "#4A5768"
+  accent:    "#3BA9C8"
+  accent_soft: "#6FD3EC"
+  ok:        "#5BC98F"
+
+boot:
+  lines:
+    - "atlas 3.2.1 — cold start"
+    - "loading datasets ............. ok"
+    - "warming models ............... ok"
+    - "calibrating instruments ...... ok"
+
+projects:
+  - name: tide-forecast
+    type: research
+    since: 2025
+    status: published
+    desc: >-
+      Coastal flood prediction from tide gauges and satellite
+      altimetry, running two weeks ahead of the storm.
+    stack: [Python, JAX, xarray]
+  - name: field-notebook
+    type: tooling
+    since: 2024
+    status: maintained
+    desc: >-
+      A notebook environment for fieldwork with no reliable
+      internet — syncs when it can, never blocks when it cannot.
+    stack: [Rust, SQLite, Svelte]
+  - name: honest-charts
+    type: library
+    since: 2023
+    status: stable
+    desc: >-
+      Plotting defaults that refuse to mislead. Truncated axes
+      require an explicit argument and a small apology.
+    stack: [TypeScript, D3]
+
+skills:
+  - group: analysis
+    items:
+      - { name: python,   channel: stable }
+      - { name: r,        channel: stable }
+      - { name: jax,      channel: learning }
+  - group: data
+    items:
+      - { name: duckdb,   channel: stable }
+      - { name: postgres, channel: stable }
+      - { name: parquet,  channel: stable }
+      - { name: spark,    channel: experimental }
+  - group: craft
+    items:
+      - { name: d3,       channel: stable }
+      - { name: quarto,   channel: stable }
+      - { name: rust,     channel: learning }
+
+timeline:
+  - year: 2021
+    title: first dataset
+    detail: a spreadsheet of rainfall that refused to make sense
+  - year: 2023
+    title: published
+    detail: first paper, first reviewer who was completely right
+  - year: 2025
+    title: field work
+    detail: six weeks on the coast, learning what the data omits
+  - year: 2026
+    title: current
+    detail: forecasting tides, and the occasional argument about axes
+
+contact:
+  email: mira@example.org
+  links:
+    - { label: github, url: "https://github.com/mira-okonkwo" }
+    - { label: papers, url: "https://example.org/mira" }
+
+labels:
+  # Same generator, entirely different operating system.
+  hero:
+    prompt: "{handle}@atlas"
+    symbol: "›"
+  explorer:
+    title: "workspace"
+    right: "/srv/research"
+    root: "/srv/research"
+    footer: "{count} studies mounted · one surfaces each day · {os}"
+    footer_live: "{repos} repositories · ★ {stars} stars · {followers} followers · one surfaces each day"
+  packages:
+    title: "toolchain"
+    right: "env v{version}"
+    command: "env list --active"
+    footer: "{count} tools active · reproducible build · channels: stable / learning / experimental"
+  timeline:
+    title: "changelog"
+    right: "log --reverse"
+  manual:
+    title: "readme"
+    right: "readme(1)"
+  system:
+    title: "workstation"
+    right: "specs"
+  secret:
+    title: "field_notes"
+    right: "less notes.md"
+    intro: "nobody usually reads this far."
+    note: "the note changes each day"
+  contact:
+    command: "reach --open"
+    email_label: "write"
+    eof: "END OF FILE · {os}"
+
+hidden:
+  manual:
+    summary: "readme mira"
+    sections:
+      - heading: ABSTRACT
+        lines:
+          - "Studies coastlines and the models that fail to predict them."
+      - heading: METHOD
+        lines:
+          - "Collect carefully. Plot before modelling. Distrust any result"
+          - "that arrives on the first attempt."
+      - heading: BIAS
+        lines:
+          - "Prefers a boring model that holds to a clever one that does not."
+
+  system:
+    summary: "specs"
+    specs:
+      - { key: machine, value: "thinkpad · linux" }
+      - { key: editor,  value: "neovim" }
+      - { key: plots,   value: "matplotlib, reluctantly" }
+      - { key: coffee,  value: "no — tea" }
+      - { key: field,   value: "coastal, six weeks a year" }
+
+  secret:
+    summary: "less notes.md"
+    fortunes:
+      - "Every dataset has a story about the person who collected it."
+      - "The most interesting number is usually the one that was excluded."
+      - "I have never once trusted a correlation on the first look."
+      - "Fieldwork ruins your models and improves your questions."
+
+readme:
+  source_note: |
+       ╭──────────────────────────────╮
+       │   atlas · generated output   │
+       ╰──────────────────────────────╯
+
+       built from a single yaml file by the same generator that
+       renders every other profile in this family. fork it.
+
+data:
+  github_api: false
+  refresh_hours: 6
